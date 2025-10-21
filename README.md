@@ -40,12 +40,12 @@ Kullanıcıların web arayüzünden (ve opsiyonel olarak mobilden) mesaj gönder
 
 > Aşağıdaki yer tutucu alanları kendi canlı linklerinle değiştir.
 
-- Web (Vercel): https://<senin-projen>.vercel.app
-- Backend (Render / ChatService): https://<senin-servisin>.onrender.com
-- AI Demo UI (Gradio): https://emnts-sentimen-ai.hf.space/ui
-- AI API (POST): https://emnts-sentimen-ai.hf.space/analyze
-- AI Health: https://emnts-sentimen-ai.hf.space/healthz
-
+Demo UI: https://emnts-sentimen-ai.hf.space/ui
+API Endpoint: https://emnts-sentimen-ai.hf.space/analyze
+Health Check: https://emnts-sentimen-ai.hf.space/healthz
+Space Ana Sayfa: https://huggingface.co/spaces/EMNTS/sentimen-ai 
+- Backend (Render / ChatService): https://fullstack-ai-chat-4hxz.onrender.com
+  
 ---
 
 ## Klasör Yapısı
