@@ -1,4 +1,6 @@
 import os
+os.environ["HF_HOME"] = "/tmp"
+os.environ["TRANSFORMERS_CACHE"] = "/tmp"
 from typing import Literal
 from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
@@ -73,7 +75,8 @@ demo = gr.Interface(
         gr.Number(label="Score")
     ],
     title="Sentiment Analysis",
-    description="Simple API + UI. POST /analyze for JSON."
+    description="Simple API + UI. POST /analyze for JSON.",
+    allow_flagging="never"
 )
 
 # UI'yi /ui altına mount et
