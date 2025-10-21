@@ -56,19 +56,25 @@ FULLSTACK-AI-CHAT/
 │ └─ Dockerfile # (opsiyonel; Spaces ayarına göre)
 │
 
-├─ frontend/ # React + Vite (Web arayüzü)
+├    ─ frontend/ # React + Vite (Web arayüzü)
 
-│ ├─ src/
-│ ├─ public/
-│ ├─ index.html
-│ ├─ package.json
-│ ├─ vite.config.ts
-│ └─ .env.example
+│    ├─ src/
+│    
+├    ─ public/
+
+│    ├─ index.html
+
+│    ├─ package.json
+
+│    ├─ vite.config.ts
+
+│    └─ .env.example
 │
-├─ mobile/ # React Native (opsiyonel; ileride entegre için hazır)
-│ └─ src/
+├─    mobile/ # React Native (opsiyonel; ileride entegre için hazır)
+│    
+      └─ src/
 │
-├─ services/ # .NET Core servisleri (Onion/DDD yaklaşımı)
+├     ─ services/ # .NET Core servisleri (Onion/DDD yaklaşımı)
 │ ├─ ChatService/ # Mesajlaşma, sohbet ve AI entegrasyonu
 │ └─ IdentityService/ # Kullanıcı (rumuz) kimlik işlemleri, JWT
 │
