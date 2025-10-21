@@ -125,8 +125,7 @@ Notlar:
 
 Mimari Notlar (DDD + Onion)
 Domain (çekirdek):
-Entity, Value Object, Domain Service’ler
-İş kuralları burada; dışa bağımlılık yok
+Entity, Value Object, Domain Service’ler  İş kuralları burada; dışa bağımlılık yok
 Application:
 Use-case’ler (komut/sorgu), DTO’lar, portlar
 Domain’i kullanarak iş akışını yönetir
