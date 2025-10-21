@@ -45,14 +45,19 @@ Proje mimarisi tasarlanırken **Domain-Driven Design (DDD)** ve **Onion Architec
 ## Klasör Yapısı
 
 Bu repo yapısı, PDF’teki gereksinimleri karşılayacak şekilde ve mevcut proje durumuna uygun olarak düzenlenmiştir.
-
 FULLSTACK-AI-CHAT/
+
 ├─ ai-service/ # Python + FastAPI + Gradio (Hugging Face Spaces)
+
 │ ├─ app.py
+
 │ ├─ requirements.txt
+
 │ └─ Dockerfile # (opsiyonel; Spaces ayarına göre)
 │
+
 ├─ frontend/ # React + Vite (Web arayüzü)
+
 │ ├─ src/
 │ ├─ public/
 │ ├─ index.html
